@@ -1,4 +1,10 @@
 
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+#
+#@created: 14.09.2021
+#@author: Marina Popova
+
 class CoffeeMachine:
     resources_name = ['water', 'milk', 'coffee beans', 'cups', 'money']
     def __init__(self, w = 400, m = 540, cb = 120, c = 9, mn = 550):
